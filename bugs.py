@@ -27,11 +27,11 @@ def tryToDoSomething(self, value):
     except:
         traceback.print_exc()
 
-
 def setGlobal(value=None):
     metaslash = value
     print('Old MetaSlash value is:', metaslash)
     useless = Nothing(5)
     print('a useless value is:', useless.valeu)
+
 
 setGlobal(50)
