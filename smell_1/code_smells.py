@@ -1,6 +1,6 @@
 print('Good morning!')
 print('How are you feeling?')
-feeling = input()#
+feeling = input()
 print('I am happy to hear that you are feeling ' + feeling + '.')
 print('Good afternoon!')
 print('How are you feeling?')
