@@ -36,6 +36,10 @@ on:
 permissions:
   pull-requests: read # allows SonarQube to decorate PRs with analysis results
 
+addons:
+  sonarcloud:
+    organization: "winson-cell"
+    
 jobs:
   Analysis:
     runs-on: ubuntu-latest
